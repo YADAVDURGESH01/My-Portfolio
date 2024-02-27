@@ -1,5 +1,5 @@
 // circle skill ////////////////////////////////////////////
-
+/*
 const circles = document.querySelectorAll('.circle');
 circles.forEach(elem=>{
     var dots = elem.getAttribute("data-dots");
@@ -20,7 +20,7 @@ circles.forEach(elem=>{
     }
 })
 
-
+*/
 
 // mix it up portfolio sction
 var mixer = mixitup('.portfolio-gallery');
@@ -49,13 +49,32 @@ window.addEventListener("scroll",function(){
 })
 
 // toggle icon navbar///////////////////////////////////
-let  menuIcon = document.querySelector("#menu-icon");
-let  navlist = document.querySelector(".navlist");
+var  menuIcon = document.querySelector("#menu-icon");
+var  navlist = document.querySelector(".navlist");
 
-menuIcon.onclick = ()=>{
+/*menuIcon.onclick = ()=>{
     menuIcon.classList.toggle("bx-x");
-    navlist.classList.toggle("open")
-}
+    navlist.classList.toggle("navlist")
+
+	
+}*/
+ // my code 
+  
+ var a = document.querySelector("header");
+ menuIcon.addEventListener("click", function(){
+	 
+	 a.style.backgroundColor = "red"
+ })
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
 
 window.onscroll = ()=>{
