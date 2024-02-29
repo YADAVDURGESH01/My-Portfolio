@@ -309,9 +309,9 @@ section{
 
 .img-box img{
     width: 100%;
-    max-width: 300px;
+    max-width: 400px;
     height: 100%;
-	border-radius:50%;
+	border-radius:15%;
 }
 
 /* About Section css-------------------------------------------------*/
