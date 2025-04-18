@@ -10,13 +10,13 @@
 }
  
  :root{
-    --text-color:#f5f5f5;
-    --hover-coler:#12f7ff;
-    --bg-color:#250821;
-    --secon-bg-color:#292e33;
+    --text-color:rgb(126, 245, 116);
+    --hover-coler:rgb(126, 245, 116);
+    --bg-color:#080808;
+    --secon-bg-color:#053463;
     --big-font:2.5rem;
     --normal-font:2rem;
-    --neon-box-shdow:0 0 .5rem #12f7ff;
+    --neon-box-shdow:0 0 .5rem #056b6e;
     --h2-font:3rem;
     --font-neon-box-shadow:0 0 10px rgba(18,247,255,0.3),
     0 0 20px rgba(18,247,255,0.3),
@@ -444,8 +444,8 @@ section{
     border-radius: 10px;
 }
 
-.service-box .mo{
-    width: 122px;
+.service-box .m{
+    width: 128px;
 }
 
 .service-box .m{
@@ -518,22 +518,28 @@ section{
     box-shadow: var(--neon-box-shdow);
 }
 
-.skill-bar .bar .html{
-    width: 100%;
-    animation: html 2s;
-}
-
-.skill-bar .bar .javascript{
+.skill-bar .bar .Python{
     width: 80%;
-    animation: javascript 4s;
+    animation: Python 4s;
 }
 
-.skill-bar .bar .css{
-    width: 90%;
-    animation: css 5s;
+.skill-bar .bar .msexcel{
+    width: 82%;
+    animation: msexcel 5s;
 }
 
-
+.skill-bar .bar .numpy{
+    width: 86%;
+    animation: numpy 6s;
+}
+.skill-bar .bar .tableau{
+    width: 84%;
+    animation: numpy 5.3s;
+}
+.skill-bar .bar .mysql{
+    width: 88%;
+    animation: numpy 7s;
+}
 
 
 
@@ -1192,33 +1198,48 @@ color: #999;
     }
 } 
 
-@keyframes html{
+@keyframes Python{
     0%{
         width: 0%;
     }
-    100%{
-        width: 100%;
-    }
-}
-
-@keyframes javascript{
-    0%{
-        width: 0%;
-    }
-    100%{
+    80%{
         width: 80%;
     }
 }
 
-@keyframes css{
+@keyframes msexcel{
     0%{
         width: 0%;
     }
-    100%{
-        width: 90%;
+    82%{
+        width: 82%;
     }
 }
 
+@keyframes numpy{
+    0%{
+        width: 0%;
+    }
+    86%{
+        width: 86%;
+    }
+}
+@keyframes tableau{
+    0%{
+        width: 0%;
+    }
+    84%{
+        width: 84%;
+    }
+}
+@keyframes mysql{
+    0%{
+        width: 0%;
+    }
+    89%{
+        width: 89%;
+    }
+}
  @keyframes glow{
     0%{
         background: var(--bg-color);
@@ -1240,19 +1261,19 @@ color: #999;
 
 @keyframes words {
     0%,20%{
-        content: "Web Developer";
+        content: "Data Analyst";
     }
     21%,40%{
-        content: "       ";
+        content: "Data Analaysis";
     }
     41%,60%{
-        content: "Frontend Developer";
+        content: "Operations Analyst";
     }
     61%,80%{
-        content: "java Developer";
+        content: "Insights Analyst";
     }
     81%,100%{
-        content: "Backend PHP";
+        content: "Reporting Analyst";
     }
 }
 
